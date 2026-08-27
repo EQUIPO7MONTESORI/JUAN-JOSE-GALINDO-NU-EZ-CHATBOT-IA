@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Chatbot IA</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Chatbot IA</title>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
   <body>
-      <header>
-        <h1>Chatbot de Juan Jose Galindo Nuñez</h1>
-      </header>
-      <div id="chat-box" class="chat-box">
-        <div>
-          
+     <div class="chat-container">
+        <header>
+          <h1>Chatbot de Galindo</h1>
+        </header>
+        <div id="chat-box" class="chat-box">
+          <div class="message user-message">hola</div>
+          <div class="message bot-message">hola</div>
         </div>
-      </div>
+        <div class="input-area">
+          <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+          <button id="send-btn">enviar</button>
+        </div>
+     </div>
       <script src="script.js"></script>
   </body>
 </html>
