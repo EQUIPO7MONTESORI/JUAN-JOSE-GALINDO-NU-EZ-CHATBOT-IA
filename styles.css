@@ -1,6 +1,8 @@
-body{
-  padding: 25px;
-}
-.title {
-	color: #ff5100fd;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik 80s Fade", sans-serif;
 }
