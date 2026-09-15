@@ -6,3 +6,33 @@
   box-sizing: border-box;
   font-family: "Rubik 80s Fade", sans-serif;
 }
+body
+{
+  background-image: linear-gradient(90.2deg, rgb(230, 71, 8)-0.4%, rgba(0, 255, 234, 0.8) 106.1%);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100 vh;
+}
+
+.chat-container {
+ width: 400px;
+ heigth: 600px;
+ background: rgba(255,255,255,0.2);
+ backdrop-filter: blur(10px);
+ border: 1px solid rgba(255,255,255,0.3);
+ border-radius: 15px;
+ box-shadow: 0 8px 32px 0 rgba(0,0,0,0.15);
+ display: flex;
+ flex-direction: column;
+ overflow: hidden;
+}
+
+header{
+  background: rgba(0,0,0,0.1)
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
