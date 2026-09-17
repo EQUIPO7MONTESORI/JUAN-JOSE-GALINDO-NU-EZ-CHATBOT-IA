@@ -8,7 +8,7 @@
 }
 body
 {
-  background-image: linear-gradient(90.2deg, rgb(230, 71, 8)-0.4%, rgba(0, 255, 234, 0.8) 106.1%);
+  background-image: linear-gradient(90.2deg, rgb(230, 71, 8)-0.4%, rgba(9, 255, 0, 0.8) 106.1%);
   color: #333;
   display: flex;
   justify-content: center;
@@ -18,7 +18,7 @@ body
 
 .chat-container {
  width: 400px;
- heigth: 600px;
+ height: 600px;
  background: rgba(255,255,255,0.2);
  backdrop-filter: blur(10px);
  border: 1px solid rgba(255,255,255,0.3);
@@ -29,8 +29,9 @@ body
  overflow: hidden;
 }
 
-header{
-  background: rgba(0,0,0,0.1)
+header
+{
+  background: rgba(0,0,0,0.1);
   color: #fff;
   padding: 15px;
   text-align: center;
