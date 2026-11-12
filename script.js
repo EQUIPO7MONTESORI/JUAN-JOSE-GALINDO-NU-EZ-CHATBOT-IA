@@ -2,9 +2,6 @@ const chatBox = document.getElementById("chat-box");
 const userInput = document.getElementById("user-input");
 const sendBtn = document.getElementById("send-btn");
 
-// ====== API KEY ======
-// La key NO se escribe en este archivo (así no se filtra en GitHub).
-// La primera vez la página la pide y la guarda en ese computador.
 function obtenerKey() {
     let key = "";
     try { key = localStorage.getItem("geminiKey") || ""; } catch (e) {}
